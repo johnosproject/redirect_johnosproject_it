@@ -1,0 +1,16 @@
+<!--
+Redirect to "https://www.johnosproject.org"
+-->
+
+<script type="text/javascript">
+    // From http(s)://(www.)johnosproject.it
+    // To   https://www.johnosproject.org
+
+    newUrl = 'https://www.johnosproject.org' + 
+            window.location.pathname + 
+            window.location.search
+    console.log(newUrl)
+
+    window.location = newUrl
+
+</script>
